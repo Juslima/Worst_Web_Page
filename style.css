@@ -1,0 +1,91 @@
+body {
+    background-color: #FF00FF;
+    /* Magenta background for the main page */
+    border: 10px solid #0000FF;
+    /* Blue border */
+    padding: 20px;
+    margin: 10px;
+}
+
+nav {
+    border: 2px solid #FF0000;
+    /* Red border for the navigation */
+    padding: 10px;
+    /* Add padding to the navigation */
+    margin: 20px;
+    /* Add margin to the navigation */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    /* Consecutive inline elements */
+    margin-right: 20px;
+}
+
+h1 {
+    color: #00FF00;
+    /* Green text color */
+    border: 3px solid #0000FF;
+    /* Blue border for the h1 element */
+    margin: 15px;
+    /* Add margin to the h1 element */
+}
+
+p {
+    background-color: #FFFF00;
+    /* Yellow background color for paragraphs */
+    padding: 10px;
+}
+
+.image-container img {
+    width: 200px;
+    /* Set the desired width */
+    height: 150px;
+    /* Set the desired height */
+    margin: 10px;
+    /* Add spacing between images if needed */
+}
+
+
+.image-container img {
+    float: left;
+    /* Float the images to the left */
+    margin: 10px;
+    /* Add margin for spacing */
+}
+
+/* Apply float to another set of images */
+.another-image-container img {
+    float: right;
+    /* Float the images to the right */
+    margin: 10px;
+    /* Add margin for spacing */
+}
+
+/* Example of using relative positioning for elements in style.css */
+
+.relative-positioned-element {
+    position: relative;
+    top: 20px;
+    /* Move the element 20 pixels down from its normal position */
+    left: 10px;
+    /* Move the element 10 pixels to the right from its normal position */
+}
+
+/* Apply relative positioning to two more elements as needed */
+
+/* Example of using absolute positioning for elements in style.css */
+
+.absolute-positioned-element {
+    position: absolute;
+    top: 100px;
+    /* Position the element 100 pixels from the top of the nearest positioned ancestor */
+    left: 50px;
+    /* Position the element 50 pixels from the left of the nearest positioned ancestor */
+}
+
+/* Apply absolute positioning to another element as needed */
